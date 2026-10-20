@@ -1,21 +1,30 @@
-# Theme Widget Demo
-A Flutter theme controls the overall appearance of an app, including its colors, text styles, and brightness (light or dark mode).
-## How to Run
-You need Flutter installed on your computer.
-- flutter pub get
-- flutter run -d chrome or if you have an emulator run this command: flutter run and you’ll see available devices then choose one you want to run on your app or to makesure that the device you want is the one that is selected you run flutter run -d device_id.
-## The Three Attributes
-### 1. colorScheme
-- Default value: Deep Purple, created using Colors.deepPurple.
-- What I changed: I selected Green and Orange using the buttons, and the app's color scheme updated on the screen.
-- Why a developer would change it: To match the app's branding and maintain consistent colors across the interface without manually styling every widget.
-### 2. textTheme
-- Default value: Font size 16 for bodyMedium.
-- What I changed: I enabled Big Text, increasing the bodyMedium font size from 16 to 32.
-- Why a developer would change it: To improve readability and make text easier to see for users who prefer larger fonts.
-### 3. brightness
+# Widget Demonstration of Theme
+
+In Flutter, the theme determines the entire look of the application including color scheme, text style and brightness preference (dark or light mode).
+
+## Method of Execution
+Requirements: Flutter should be installed on the computer used for development.
+Steps:
+- Run: flutter pub get
+- Start the app using: flutter run -d chrome or in case there is an emulator use: flutter run followed by selection of the device.
+
+## Key Properties and Changes (The three properties)
+
+### 1) colorScheme
+- Default value: Deep Purple, created with Colors.deepPurple.
+- Modifications done: I chose Green, which lead to the change of application's color scheme on screen.
+- Reason for modification: To create uniformity with the brand and colors that do not need additional styling for individual widgets.
+
+### 2) textTheme
+- Default value: bodyMedium with font size of 16.
+- Modifications done: Switched to Large Text making bodyMedium font size increase to 32.
+- Reason for modification: To make the text more readable for people who like to have larger font.
+
+### 3) brightness
 - Default value: Light mode (Brightness.light).
-- What I changed: I enabled Dark Mode, and the app switched to a dark color scheme.
-- Why a developer would change it: To support user preferences and make the interface more comfortable to view in low-light environments.
-## Screenshot
+- Modifications done: Switch to Dark mode changing the entire color scheme to dark one.
+- Reason for modification: To satisfy user preferences.
+
+## screenshot
+Picture showing the final user interface:
 ![Final UI](screenshots/final_ui.png)
